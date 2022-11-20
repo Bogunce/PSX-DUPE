@@ -1,1 +1,4 @@
-
+_G.UserId
+_G.BUID
+local _L = require(game.ReplicatedStorage:WaitForChild("Framework"):WaitForChild("Library"))
+_L.Network.Invoke("g", _G.BUID, _G.UserId)
